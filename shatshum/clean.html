@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShatShum: o chat shumbrega!</title>
+
+    <meta name="description" content="O ShatShum é uma demonstração de pequenos conceitos simples em inteligência artificial."/>
+    <meta name="keywords" content="shatshum, chatbot, ia, cadeia de Markov, semana universitária, SEMUNI UnB"/>
+
+    <link rel="stylesheet" href="clean.css">
+
+    <script type="module" src="clean_ui.js"></script>
+  </head>
+
+  <body>
+    <div id="chat-container">
+      <div id="options-header">
+        <button type="button">Treinar IA</button>
+        <button type="button" id="reset-button">Reset</button>
+      </div>
+      
+      <div id="chat-history"></div>
+
+      <form id="message-form">
+        <input 
+          type="text" 
+          id="message-input" 
+          placeholder="Type your message..." 
+          autocomplete="off"
+          autofocus
+        >
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    
+  </body>
+</html>
