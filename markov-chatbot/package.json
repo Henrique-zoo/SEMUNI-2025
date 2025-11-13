@@ -1,0 +1,23 @@
+{
+  "name": "markov-chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot baseado em cadeias de Markov para geração de texto",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "train": "node src/train.js",
+    "test": "node src/example.js"
+  },
+  "keywords": [
+    "markov",
+    "chatbot",
+    "nlp",
+    "text-generation"
+  ],
+  "author": "SEMUNI 2025 - UnB",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
